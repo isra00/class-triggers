@@ -1,0 +1,21 @@
+{
+    "name": "isra00/class-triggers",
+    "description": "Inject magic actions before and after any method of any class",
+    "keywords": ["triggers", "objects", "classes", "methods", "magic"],
+    "homepage": "http://github.com/isra00/class-triggers",
+    "type": "library",
+    "license": "LGPL v3.0",
+    "authors": [
+        {
+            "name": "Israel Viana",
+            "email": "isra00@gmail.com",
+            "homepage": "http://israelviana.es"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {"ClassTriggers": "src/"}
+    }
+}
