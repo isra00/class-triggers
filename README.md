@@ -3,7 +3,7 @@ Inject logic to any method of any PHP class, dinamically
 
 [![Build Status](https://secure.travis-ci.org/isra00/class-triggers.png)](http://travis-ci.org/isra00/class-triggers)
 
-This is a partial and experimental implementation of Aspect-Oriented Programming. It gives you the ability to capture and manipulate the inputs, outputs and execution of any method of any class in PHP.
+Partial and experimental implementation of Aspect-Oriented Programming. It gives you the ability to capture and manipulate the inputs, outputs and execution of any method of any class in PHP.
 
 Basic usage
 -----------
