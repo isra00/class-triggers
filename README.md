@@ -47,13 +47,6 @@ Example
 		}
 	});
 
-More info
----------
-
-I wrote a tutorial in spanish:
-
-http://israelviana.es/inyectar-logica-en-los-metodos-de-cualquier-clase-php-dinamicamente/
-
 Requiremens
 -----------
 
@@ -64,3 +57,11 @@ Installation
 ------------
 
 You can install it via Composer, and use it instantly thanks to the Composer autoloader.
+
+More info
+---------
+
+I wrote a tutorial in spanish:
+http://israelviana.es/inyectar-logica-en-los-metodos-de-cualquier-clase-php-dinamicamente/
+
+If you have any comments, ideas, questions... don't hesitate to contact me on isra00 AT gmail DOT com :-)
