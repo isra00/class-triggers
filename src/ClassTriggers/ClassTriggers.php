@@ -18,6 +18,12 @@ class ClassTriggers
 	
 	protected $actions = array();
  
+ 	/**
+ 	 * Constructs a trigger-able object based on any object
+ 	 *
+ 	 * @param	object			$target	Original object
+ 	 * @return	ClassTriggers	The ClassTriggers instance!
+ 	 */
 	public function __construct($target)
 	{
 		$this->target = $target;
@@ -31,8 +37,18 @@ class ClassTriggers
 
 
 	/**
-	 * TODO: implementar la obligatoriedad de parámetros. Para saber los
-	 * parámetros del método target, usar reflexión
+	 * Catch calls to non-existing methods. This way we can run the actions and
+	 * the original methods from the target object
+	 *
+	 * @param	string	$requestedMethod	The name of the requested method.
+	 * @param	array	$arguments			Arguments passed in the call.
+	 * @return	mixed	The returned value of the actual methods, optionally
+	 *					manipulated by postMethod actions.
+	 *
+	 * @see http://php.net/manual/language.oop5.overloading.php
+	 *
+	 * @todo Implementar la obligatoriedad de parámetros. Para saber los
+	 * 		 parámetros del método target, usar reflexión
 	 */
 	public function __call($requestedMethod, $arguments)
 	{
@@ -85,7 +101,16 @@ class ClassTriggers
 		return $returnValue;
 	}
 	
-	
+	/**
+	 * Binds an action to a method trigger
+	 * 
+	 * @param string	$method		A method of the target class
+	 * @param string	$event		'preMethod' or 'postMethod'
+	 * @param callable	$closure	The action to be executed. Will receive two params:
+	 *								$arguments (arguments in the method call) and
+	 *								$returnValue (returned value from the original method,
+	 *								only available in postMethod actions).
+	 */
 	public function bind($method, $event, callable $closure)
 	{
 		if (!in_array($method, $this->targetMethods))
