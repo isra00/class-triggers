@@ -41,9 +41,9 @@ class ClassTriggers
 	 * the original methods from the target object
 	 *
 	 * @param	string	$requestedMethod	The name of the requested method.
-	 * @param	array	$arguments			Arguments passed in the call.
+	 * @param	array	$arguments		Arguments passed in the call.
 	 * @return	mixed	The returned value of the actual methods, optionally
-	 *					manipulated by postMethod actions.
+	 *			manipulated by postMethod actions.
 	 *
 	 * @see http://php.net/manual/language.oop5.overloading.php
 	 *
@@ -107,9 +107,9 @@ class ClassTriggers
 	 * @param string	$method		A method of the target class
 	 * @param string	$event		'preMethod' or 'postMethod'
 	 * @param callable	$closure	The action to be executed. Will receive two params:
-	 *								$arguments (arguments in the method call) and
-	 *								$returnValue (returned value from the original method,
-	 *								only available in postMethod actions).
+	 *					$arguments (arguments in the method call) and
+	 *					$returnValue (returned value from the original method,
+	 *					only available in postMethod actions).
 	 */
 	public function bind($method, $event, callable $closure)
 	{
