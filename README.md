@@ -59,7 +59,7 @@ Installation
 You can install it via Composer, and use it instantly thanks to the Composer autoloader:
 
 	"require": {
-		"isra00/class-triggers": "*"
+		"isra00/class-triggers": "dev-master"
 	}
 
 
