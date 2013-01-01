@@ -70,3 +70,12 @@ I wrote a tutorial in spanish:
 http://israelviana.es/inyectar-logica-en-los-metodos-de-cualquier-clase-php-dinamicamente/
 
 If you have any comments, ideas, questions... don't hesitate to contact me on isra00 AT gmail DOT com :-)
+
+Contributing
+------------
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
