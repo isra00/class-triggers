@@ -1,7 +1,7 @@
 Inject logic to any method of any PHP class, dinamically
 ========================================================
 
-[![Build Status](https://secure.travis-ci.org/isra00/class-triggers.png)](http://travis-ci.org/isra00/class-triggers)
+[![Build Status](https://travis-ci.org/isra00/class-triggers.png?branch=master)](https://travis-ci.org/isra00/class-triggers)
 
 Partial and experimental implementation of Aspect-Oriented Programming. It gives you the ability to capture and manipulate the inputs, outputs and execution of any method of any class in PHP.
 
@@ -47,13 +47,6 @@ Example
 		}
 	});
 
-More info
----------
-
-I wrote a tutorial in spanish:
-
-http://israelviana.es/inyectar-logica-en-los-metodos-de-cualquier-clase-php-dinamicamente/
-
 Requiremens
 -----------
 
@@ -63,4 +56,26 @@ Requiremens
 Installation
 ------------
 
-You can install it via Composer, and use it instantly thanks to the Composer autoloader.
+You can install it via Composer, and use it instantly thanks to the Composer autoloader:
+
+	"require": {
+		"isra00/class-triggers": "dev-master"
+	}
+
+
+More info
+---------
+
+I wrote a tutorial in spanish:
+http://israelviana.es/inyectar-logica-en-los-metodos-de-cualquier-clase-php-dinamicamente/
+
+If you have any comments, ideas, questions... don't hesitate to contact me on isra00 AT gmail DOT com :-)
+
+Contributing
+------------
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
