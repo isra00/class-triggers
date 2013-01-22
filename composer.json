@@ -1,7 +1,7 @@
 {
     "name": "isra00/class-triggers",
     "description": "Inject magic actions before and after any method of any class",
-    "keywords": ["triggers", "objects", "classes", "methods", "magic"],
+    "keywords": ["triggers", "objects", "classes", "methods", "magic", "aop"],
     "homepage": "http://github.com/isra00/class-triggers",
     "type": "library",
     "license": "LGPL v3.0",
