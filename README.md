@@ -66,10 +66,10 @@ You can install it via Composer, and use it instantly thanks to the Composer aut
 More info
 ---------
 
-I wrote a tutorial in spanish:
-http://israelviana.es/inyectar-logica-en-los-metodos-de-cualquier-clase-php-dinamicamente/
+I wrote a tutorial in Spanish:
+https://github.com/isra00/blog/blob/master/2012-12-14-inyectar-logica-en-los-metodos-de-cualquier-clase-php-dinamicamente.md
 
-If you have any comments, ideas, questions... don't hesitate to contact me on isra00 AT gmail DOT com :-)
+If you have any comments, ideas, questions... don't hesitate to raise an issue in GitHub :-)
 
 Contributing
 ------------
