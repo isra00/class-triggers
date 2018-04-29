@@ -4,7 +4,7 @@
     "keywords": ["triggers", "objects", "classes", "methods", "magic", "aop"],
     "homepage": "http://github.com/isra00/class-triggers",
     "type": "library",
-    "license": "LGPL v3.0",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Israel Viana",
